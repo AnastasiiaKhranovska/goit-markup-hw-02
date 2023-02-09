@@ -64,7 +64,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: normal;
+    letter-spacing: 0.04em;
     font-family: 'Roboto', sans-serif;
 }
 .button-white:hover,
@@ -77,6 +77,8 @@ ul {
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto', sans-serif;
 }
  .button-blue {
     color: var(--color-brand);
@@ -86,6 +88,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto', sans-serif;
 }
 .button-blue:hover,
 .button-blue:focus {
@@ -95,6 +99,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto', sans-serif;
 }
  .hero {
     color: var(--color-inverted);
@@ -117,8 +123,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: normal;
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
 }
 .gallery {
     background: var(--color-inverted);
@@ -139,4 +144,10 @@ ul {
 .footer {
     color: var(--color-green);
     background: var(--color-secondary);
+}
+.footer-text {
+   color: var(--color-green); 
+}
+.fweb {
+    color: var(--color-brand);
 }
